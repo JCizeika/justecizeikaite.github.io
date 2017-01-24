@@ -1,0 +1,66 @@
+* {
+font-family: 'josefine', sans-serif;
+}
+
+
+img {
+height: 100px;
+position: fixed;
+padding-top: 50px;
+float:left;
+left: 10%;
+}
+
+ul#navigation {
+padding-top: 80px;
+padding-right: 10px;
+right: 100px;
+position: fixed;
+text-align: right;
+text-transform: lowercase;
+}
+
+a, li {
+display: inline-block;
+font-weight: bold;
+font-size: 25px;
+text-indent: 50px;
+color: black;
+text-decoration: none;
+}
+
+
+div.about {
+
+width: 420px;
+height: 200px;
+font-size: 17px;
+text-align: justify;
+margin-left: auto;
+margin-right: auto;
+padding-top: 25%;
+line-height: 25px;
+}
+
+div.work-box {
+background: tomato;
+height: 300px;
+margin-left: auto;
+margin-right: auto;
+width:300px;
+position: relative;
+top: 300px;
+}
+
+.workbox2 {
+background: green;
+height: 300px;
+margin-left: 100px;
+width:300px;
+position: relative;
+top: 300px;
+}
+
+body {
+background: white;
+}
