@@ -2,8 +2,15 @@
 font-family: 'josefine', sans-serif;
 }
 
+.nav {
+width: 100%;
+height: 200px;
+position: fixed;
+background-color: white;
+}
 
-img {
+div.logo img  {
+
 height: 100px;
 position: fixed;
 padding-top: 50px;
@@ -12,15 +19,15 @@ left: 10%;
 }
 
 ul#navigation {
+
 padding-top: 80px;
-padding-right: 10px;
-right: 100px;
+right:120px;
 position: fixed;
 text-align: right;
 text-transform: lowercase;
 }
 
-a, li {
+li, a {
 display: inline-block;
 font-weight: bold;
 font-size: 25px;
@@ -29,6 +36,21 @@ color: black;
 text-decoration: none;
 }
 
+a:hover {
+color: tomato;
+}
+span {
+  color:tomato;
+}
+
+.grafik img {
+
+  width: 250px;
+  left: 150px;
+  padding-top: 230px;
+  position: fixed;
+
+}
 
 div.about {
 
@@ -37,29 +59,106 @@ height: 200px;
 font-size: 17px;
 text-align: justify;
 margin-left: auto;
-margin-right: auto;
-padding-top: 25%;
+margin-right: 240px;
+padding-top: 350px;
 line-height: 25px;
+
 }
 
-div.work-box {
-background: tomato;
-height: 300px;
+
+.container {
+height: 90%;
+width: 90%;
 margin-left: auto;
 margin-right: auto;
-width:300px;
-position: relative;
-top: 300px;
+padding-top: 250px;
+
 }
 
-.workbox2 {
-background: green;
-height: 300px;
-margin-left: 100px;
-width:300px;
-position: relative;
-top: 300px;
+.box2 , .box1, .box {
+
+height:270;
+background-size: cover;
+background-position: center;
+width: 270px;
+float:left;
+margin: 50px;
 }
+
+.box2{
+background-position: 300px;
+background-size: cover;
+}
+
+.box1 {
+  background-position: bottom;
+  background-size: cover;
+}
+.box a, .box1 a, .box2 a {
+
+  opacity: 0;
+  width: 270px;
+  height: 270px;
+  text-align: center;
+  font-size: 30px;
+  text-indent: 0px;
+  padding-top: 100px;
+  font-style: italic;
+  font-weight: 100;
+
+}
+
+.box1:hover, .box1 a:hover, .box a:hover, .box2:hover, .box2 a:hover
+{
+color:black;
+opacity: 100;
+background-color:rgba(255, 255, 255, 0.30);
+filter: grayscale(0%);
+filter:none;
+}
+
+
+
+.Bärenbild, .Litauen{
+
+  width: 400px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("/Users/JusteCizeika/Sites/Justecizeikaite.github.io/images/bären.png");
+  background-position: center;
+  background-size: cover;
+  padding:50px;
+}
+
+.seaside {
+  width: 80%;
+  margin-left: 200px;
+  margin-right: 40px;
+}
+
+.seaside img{
+  display: inline-block;
+  width: 400px;
+  padding: 20px;
+
+}
+
+
+.button-back img{
+
+  width: 40px;
+  position: fixed;
+  left: 12%;
+  text-align: center;
+  text-indent: 0px;
+  padding-top: 0;
+  font-size: 10px;
+
+}
+
+
+
 
 body {
 background: white;
