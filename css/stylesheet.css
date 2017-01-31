@@ -2,11 +2,13 @@
 font-family: 'josefine', sans-serif;
 }
 
+/* Navigationsleiste */
 .nav {
 width: 100%;
 height: 200px;
 position: fixed;
 background-color: white;
+z-index: 1;
 }
 
 div.logo img  {
@@ -43,12 +45,25 @@ span {
   color:tomato;
 }
 
+/* Container */
+
+.container {
+height: 90%;
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+padding-top: 250px;
+}
+
+
+/* About */
+
 .grafik img {
 
-  width: 250px;
-  left: 150px;
-  padding-top: 230px;
-  position: fixed;
+width: 250px;
+left: 150px;
+padding-top: 230px;
+position: fixed;
 
 }
 
@@ -66,23 +81,17 @@ line-height: 25px;
 }
 
 
-.container {
-height: 90%;
-width: 90%;
-margin-left: auto;
-margin-right: auto;
-padding-top: 250px;
-
-}
+/* work: Projektboxen*/
 
 .box2 , .box1, .box {
 
-height:270;
+height:270px;
 background-size: cover;
 background-position: center;
 width: 270px;
 float:left;
 margin: 50px;
+
 }
 
 .box2{
@@ -108,27 +117,36 @@ background-size: cover;
 
 }
 
+/* Mouse-Hover Projektboxen */
+
 .box1:hover, .box1 a:hover, .box a:hover, .box2:hover, .box2 a:hover
 {
-color:black;
+color: black;
 opacity: 100;
 background-color:rgba(255, 255, 255, 0.30);
 filter: grayscale(0%);
 filter:none;
 }
 
+/* Projektbilder */
 
+.Bär img, .Litauen img{
 
-.Bärenbild, .Litauen{
+margin-left: 25%;
+margin-right: auto;
+display: block;
+margin-bottom: 30px;
+}
 
-  width: 400px;
-  height: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: url("/Users/JusteCizeika/Sites/Justecizeikaite.github.io/images/bären.png");
-  background-position: center;
-  background-size: cover;
-  padding:50px;
+.Bär img {
+height: 80%;
+}
+
+.Litauen img {
+
+height: 60%;
+box-shadow: 5px 5px 5px grey;
+
 }
 
 .seaside {
@@ -157,7 +175,29 @@ filter:none;
 
 }
 
+/* Responsive*/
 
+@media screen and (max-width: 660px){
+
+  ul#navigation {
+    padding-top: 80px;
+    position: absolute;;
+    text-align: right;
+    text-transform: lowercase;
+    margin-left: 200px;
+    }
+
+
+ div.logo img  {
+
+ height: 50px;
+ position: fixed;
+ padding-top: 50px;
+ float:left;
+ left: 5%;
+ }
+
+}
 
 
 body {
