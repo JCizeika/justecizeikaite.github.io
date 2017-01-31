@@ -48,7 +48,7 @@ color:tomato;
 /* Container */
 
 .container {
-height: 90%;
+
 width: 90%;
 margin-left: auto;
 margin-right: auto;
@@ -79,11 +79,24 @@ padding-top: 350px;
 line-height: 25px;
 }
 
-.contact h1 p {
+.contact {
+margin-top: 100px;
+}
 
-position: fixed;
-float: right;
-margin-left: 50%;
+.contact h2,
+.contact p {
+
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+position:relative;
+font-size: 17px;
+}
+
+h2 {
+
+color: tomato;
 }
 
 /* work: Projektboxen*/
