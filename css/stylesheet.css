@@ -129,7 +129,7 @@ background-position: bottom;
 
 .box3 {
 background-position: 300px;
-background-image: url("/Users/JusteCizeika/Sites/Justecizeikaite.github.io/images/Meer_Titelbild.JPG");
+background-image: url("/Users/JusteCizeika/Sites/Justecizeikaite.github.io/images/Meer_Bilder/Meer_Titelbild.jpg");
 }
 
 .box4 {
@@ -204,7 +204,7 @@ margin-right: 40px;
 
 .seaside img{
 display: inline-block;
-width: 400px;
+width: 70%;
 padding: 20px;
 
 }
