@@ -175,8 +175,9 @@ filter:none;
 
 /* Projektbilder */
 
+.ToDoApp img,
 .Bär img,
-.Litauen img{
+.Litauen img {
 
 margin-left: 25%;
 margin-right: auto;
@@ -188,7 +189,7 @@ margin-bottom: 30px;
 height: 80%;
 }
 
-.Litauen img {
+.Litauen img, .ToDoApp img{
 
 height: 60%;
 box-shadow: 5px 5px 5px grey;
@@ -223,26 +224,22 @@ font-size: 10px;
 
 /* Responsive*/
 
-@media screen and (max-width: 660px){
+@media screen and (max-width: 800px){
 
-  ul#navigation {
-    padding-top: 80px;
-    position: absolute;;
-    text-align: right;
-    text-transform: lowercase;
-    margin-left: 200px;
-    }
+li, a {
+display:block;
+font-size: 20px;
+text-indent: 50px;
+}
 
+div.logo img  {
+height: 70px;
+left: 5%;
+}
 
- div.logo img  {
-
- height: 50px;
- position: fixed;
- padding-top: 50px;
- float:left;
- left: 5%;
- }
-
+ul#navigation {
+padding-top: 50px;
+right:50px;
 }
 
 
