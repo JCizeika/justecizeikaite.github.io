@@ -170,12 +170,18 @@ background-position: center;
 background-image: url("/Users/JusteCizeika/Sites/Justecizeikaite.github.io/images/collage/collage2.jpg");
 }
 
+.box6 {
+background-position: center;
+background-image: url("/Users/JusteCizeika/Sites/Justecizeikaite.github.io/images/Herzen.png");
+}
+
 
 .box1 a,
 .box2 a,
 .box3 a,
 .box4 a,
-.box5 a
+.box5 a,
+.box6 a
 {
 
 opacity: 0;
@@ -200,7 +206,9 @@ font-weight: 100;
 .box4:hover,
 .box4 a:hover,
 .box5:hover,
-.box5 a:hover
+.box5 a:hover,
+.box6:hover,
+.box6 a:hover
 {
 color: black;
 opacity: 100;
@@ -221,8 +229,9 @@ display: block;
 margin-bottom: 30px;
 }
 
-.Bär img {
-width: 600px;
+.Bär img, .hearts img{
+width: 450px;
+padding-left: 80px;
 }
 
 .Litauen img, .ToDoApp img{
@@ -232,24 +241,23 @@ box-shadow: 5px 5px 5px grey;
 
 }
 
-.seaside, .collage {
+.seaside, .collage, .hearts{
 width: 80%;
 margin-left: 200px;
 margin-right: 40px;
 }
 
-.seaside img{
+.seaside img  {
 display: inline-block;
 width: 70%;
 padding: 20px;
 
 }
 
-
 .collage img {
   float: left;
   height: 400px;
-  padding: 0px;
+  padding: 50px;
 
 }
 
