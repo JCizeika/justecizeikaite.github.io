@@ -64,7 +64,6 @@ width: 250px;
 left: 150px;
 padding-top: 230px;
 position: fixed;
-
 }
 
 
@@ -72,13 +71,11 @@ position: fixed;
 
 width: 600px;
 margin-left: 520px;
-
 }
 
 .Lebenslauf p {
 
  line-height: 20px;
-
 }
 
 .cv img {
@@ -220,7 +217,7 @@ filter:none;
 /* Projektbilder */
 
 .ToDoApp img,
-.Bär img,
+.Bear img,
 .Litauen img {
 
 margin-left: 25%;
@@ -229,7 +226,7 @@ display: block;
 margin-bottom: 30px;
 }
 
-.Bär img, .hearts img{
+.Bear img, .hearts img{
 width: 450px;
 padding-left: 80px;
 }
@@ -273,7 +270,7 @@ font-size: 10px;
 
 }
 
-/* Responsive*/
+/* Responsive Navileiste*/
 
 @media screen and (max-width: 800px){
 
