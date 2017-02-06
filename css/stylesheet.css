@@ -47,12 +47,12 @@ color:tomato;
 
 /* Container */
 
-.container {
+.container, .cv{
 
 width: 90%;
 margin-left: auto;
 margin-right: auto;
-padding-top: 250px;
+padding-top: 220px;
 }
 
 
@@ -66,6 +66,31 @@ padding-top: 230px;
 position: fixed;
 
 }
+
+
+.Lebenslauf {
+
+width: 600px;
+margin-left: 520px;
+
+}
+
+.Lebenslauf p {
+
+ line-height: 20px;
+
+}
+
+.cv img {
+
+width: 280px;
+float:left;
+position: fixed;
+padding-left: 100px;
+padding-right: 100px;
+
+}
+
 
 div.about {
 
@@ -97,6 +122,9 @@ font-size: 17px;
 h2 {
 
 color: tomato;
+font-size: 20px;
+font-weight: normal;
+
 }
 
 /* work: Projektboxen*/
@@ -115,7 +143,7 @@ margin: 50px;
 
 .box1 {
 
-background-image: url("/Users/JusteCizeika/Sites/Justecizeikaite.github.io/images/bären.png");
+background-image: url("/Users/JusteCizeika/Sites/Justecizeikaite.github.io/images/Baer.jpg");
 background-position: center;
 
 }
@@ -137,11 +165,17 @@ background-position: center;
 background-image: url("/Users/JusteCizeika/Sites/Justecizeikaite.github.io/images/ToDoApp/Login_Screen-05.png");
 }
 
+.box5 {
+background-position: center;
+background-image: url("/Users/JusteCizeika/Sites/Justecizeikaite.github.io/images/collage/collage2.jpg");
+}
+
 
 .box1 a,
 .box2 a,
 .box3 a,
-.box4 a
+.box4 a,
+.box5 a
 {
 
 opacity: 0;
@@ -164,7 +198,9 @@ font-weight: 100;
 .box3:hover,
 .box3 a:hover,
 .box4:hover,
-.box4 a:hover
+.box4 a:hover,
+.box5:hover,
+.box5 a:hover
 {
 color: black;
 opacity: 100;
@@ -186,17 +222,17 @@ margin-bottom: 30px;
 }
 
 .Bär img {
-height: 80%;
+width: 600px;
 }
 
 .Litauen img, .ToDoApp img{
 
-height: 60%;
+height: 400px;
 box-shadow: 5px 5px 5px grey;
 
 }
 
-.seaside {
+.seaside, .collage {
 width: 80%;
 margin-left: 200px;
 margin-right: 40px;
@@ -209,6 +245,13 @@ padding: 20px;
 
 }
 
+
+.collage img {
+  float: left;
+  height: 400px;
+  padding: 50px;
+
+}
 
 .button-back img{
 
