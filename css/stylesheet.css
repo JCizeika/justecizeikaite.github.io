@@ -143,16 +143,39 @@ background-position: center;
 
 }
 
+.box1 {
+background-image: url('../images/Baer.jpg');
+}
+
 .box2 {
 
+background-image: url('../images/Litauen.png');
 background-position: bottom;
 }
 
 .box3 {
+
+background-image: url('../images/Meer_Bilder/Meer_Titelbild.jpg');
 background-position: 300px;
 }
 
+.box4 {
 
+background-image: url('../images/ToDoApp/Login_Screen-05.png');
+
+}
+
+.box5 {
+
+background-image: url('../images/collage/collage2.jpg');
+
+}
+
+.box6 {
+
+background-image: url('../images/Herzen.png');
+
+}
 
 .box1 a,
 .box2 a,
