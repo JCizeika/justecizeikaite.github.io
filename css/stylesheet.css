@@ -147,29 +147,30 @@ background-position: center;
 
 .box2 {
 
-background-image: url("images/Litauen.png");
+background-image: image("images/Litauen.png");
 background-position: bottom;
 
 }
 
 .box3 {
 background-position: 300px;
-background-image: url("images/Meer_Bilder/Meer_Titelbild.jpg");
+background-image: image("images/Meer_Bilder/Meer_Titelbild.jpg");
 }
 
 .box4 {
 background-position: center;
-background-image: url("images/ToDoApp/Login_Screen-05.png");
+background-image: image("images/ToDoApp/Login_Screen-05.png");
 }
 
 .box5 {
 background-position: center;
-background-image: url("images/collage/collage2.jpg");
+background-image: image("images/collage/collage2.jpg");
+
 }
 
 .box6 {
 background-position: center;
-background-image: url("images/Herzen.png");
+background-image: image("images/Herzen.png");
 }
 
 
